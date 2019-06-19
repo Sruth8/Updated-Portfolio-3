@@ -19,12 +19,16 @@ body {
     background-color: #F8F8F8;
     border-color: #E7E7E7; */
   
-  
-  
-  
+    .bd-example {
+      margin:0px 0px 10px 0px;
+    }
+  .main-container{
+    width: 75%;
+
+  }
   .container {
-    width: 100%;
-    max-width: 960px;
+    width: 75%;
+    max-width: 500px;
     margin: 0 auto;
     clear: both;
   }
@@ -38,7 +42,15 @@ body {
   
   p:last-child {
     margin-bottom: 0;
+    font: black;
   }
+
+  .card-body {
+    background-color: rgb(74, 74, 199);
+  }
+   .card-text {
+    background-color: rgb(74, 74, 199);
+   }
   
   h1,
   h2,

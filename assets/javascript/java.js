@@ -31,9 +31,9 @@ var message = "";
 $("#add-user").on("click", function(event) {
     event.preventDefault();
 
-    name = $("#name-input").val().trim();
-    email = $("#email-input").val().trim();
-    message = $("#message-input").val().trim();
+    var name = $("#name-input").val().trim();
+   var email = $("#email-input").val().trim();
+   var message = $("#message-input").val().trim();
 
 // Code for handling the push
 contacts.ref().push({
